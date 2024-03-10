@@ -1,2 +1,7 @@
 # Audio Machine Learning Genre Clustering
-An Audio ML project to classify music genres.
+
+This project was done with:
+Andrew Robertson
+Truc Le
+Siddharth Reddy Chandagari Venkata
+
