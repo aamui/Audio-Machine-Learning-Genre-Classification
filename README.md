@@ -46,3 +46,7 @@ Our feature space was the one piece of this project that changed the most as our
 ### Dimension Reduction and Clustering
 
 First, I’ll note we fixed our embedding to be two dimensional for every method we tried. This choice gave us the ability to assess our embedding visually, but could be a problem if our data truly lie on a higher dimensional surface. Once we constructed embeddings, we would cluster with various methods and various hyperparameters, creating a feedback loop where we could tune the hyperparameters for both the clustering and dimension reduction to improve a few key metrics, namely, our silhouette plot, listening a few songs, and visually assessing the geometry of our embedding. These three metrics helped us close the loop with feature selection, allowing us to tweak our feature space then look at new embeddings/clusterings. I should also note that when we compared different dimension reduction and clustering techniques using the same feature space, we often found that if the feature space was held constant, moth methods would converge to one another. However, we found that when the feature space changed, this would create wildly different results. To choose among these different feature spaces, we leaned on listening to songs as the best metric to compare them. Thus, that is why we chose Local Linear Embedding and hierarchical clustering as our final labels. In the figures below, one can see what we considered our best clustering for each iteration of our feature space.
+
+## Figures
+
+coming soon :)
