@@ -37,7 +37,7 @@ The following two clustering methods were considered when building the clusterin
 
 ## Model Assessment
 
-When determining the performance of our models, our choice of features was the most important consider- ation, followed by dimension reduction technique, then clustering.
+When determining the performance of our models, our choice of features was the most important consideration, followed by dimension reduction technique, then clustering.
 
 ### Features
 
